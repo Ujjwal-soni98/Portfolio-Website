@@ -4,10 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons'
 import {ImLinkedin} from 'react-icons/im'
 import {BsGithub} from 'react-icons/bs'
+import Logo from '../../assets/logo2.png'
 const Footer = () => {
   return (
     <footer>
-      <a href="" className="footer_logo"></a>
+      <a href="" className="footer_logo"><img src={Logo} alt="" /></a>
       <ul className="links">
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>

@@ -79,11 +79,17 @@ input,textarea{
     }
     
 }@media screen and (max-width:600px){
-   .container.contact_container {
+    .container.contact_container {
     width: var(--container-width-sm);
-   }
+    gap: 0;
+    }
 
-   form{
-    margin-right:2rem;
-   }
+    .contact_option{
+    padding: 0;
+    }
+
+    form{
+    margin-right:0rem;
+    margin-left: 0rem;
+    }
 }

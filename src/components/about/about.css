@@ -1,0 +1,129 @@
+#about{
+    margin-top: 12rem;
+}
+.aboutme-image {
+    /* border-radius: 2rem; */
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius:2rem ;
+    overflow:hidden;
+    transform:rotate(10deg);
+    height:55rem;
+    width:25rem;
+}
+
+.about_container {
+    
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap:15%;
+}
+
+.about_me {
+    margin-top: 4rem;
+    width:94%;
+    height: 24rem;
+    border-radius:2rem;
+    overflow:hidden;
+    background:linear-gradient(45deg,var(--color-primary),transparent);
+    display:grid;
+    place-items:center;
+}
+
+.aboutme-image:hover{
+    transform:rotate(0deg);
+    transition: var(--transition);
+}
+
+.about_content{
+    margin-top:4rem;
+    /* border-style: groove; */
+    border-color: rgb(253, 253, 253);
+    border-width: 0.2rem;
+    border-radius:1rem;
+    background-color: rgb(24, 24, 25);
+}
+
+p{
+    margin-top:3rem;
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fafafa
+}
+
+.contact{
+    margin-left:2rem;
+    /* text-decoration: underline; */
+    text-align:center;
+    width: 7rem;
+    margin-top: 2rem;
+    font-weight: 650;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    #about{
+        margin-top: 33rem;
+    }
+
+    .about_container {
+        grid-template-columns:1fr;
+        gap: 5%;
+        justify-content: center;
+    }
+
+    .gettoknow{
+        margin-top: -10rem;
+    }
+    .mee{
+        margin-left: -4rem;
+    }
+    .about_me{
+        width:39%;
+        margin: 4rem 28%;
+
+    }
+    .about_content{
+        text-align:center;
+        margin-top:1rem;
+        margin:0 2rem;
+    }
+
+    .about_content p {
+        margin:1rem 0 1.5rem;
+    }
+
+    .contact{
+        margin-top: -4rem;
+    }
+
+    }
+
+
+@media screen and (max-width: 600px) {
+    #about{
+        margin-top: 21rem;
+    }
+    .about_container {
+        grid-template-columns:1fr;
+        gap: 10%;
+    }
+    .about_me{
+        width:64%;
+        margin: 1rem auto -2rem;
+    }
+
+    .about_content{
+        text-align:center;
+        margin-top:2rem;
+        margin:0 2rem;
+    }
+
+    .about_content p {
+        margin:1.5rem 2rem;
+    }
+
+    .gettoknow{
+        margin-top: -13rem;
+    }
+}

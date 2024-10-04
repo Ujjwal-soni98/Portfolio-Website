@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container header__container">
       <h5 className='hello'>Hello I'm </h5> 
       <h1 className="ujjwal">Ujjwal Soni</h1>
-      <h5 className="text-light">A web Developer from India❤️</h5>
+      <h5 className="text-light">A Web Developer from India❤️</h5>
       {/* <h1>Typer.js is
   <span class="typer" id="main" data-words="great,fun,lightweight,easy" data-delay="100" data-deleteDelay="1000"></span>
   <span class="cursor" data-owner="main"></span>

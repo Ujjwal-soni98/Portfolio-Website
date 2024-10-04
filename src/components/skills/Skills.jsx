@@ -41,6 +41,12 @@ const Skills = () => {
                   <h4>Tailwind CSS</h4>
                   </div>
                 </article>
+                <article className="experience_details">
+                  <PiSealCheckFill className='experience_details-icons'/>
+                  <div>
+                  <h4>React.js</h4>
+                  </div>
+                </article>
           </div>
         </div>
         <div className="experience_backend">
@@ -67,13 +73,13 @@ const Skills = () => {
                 <article className="experience_details">
                   <PiSealCheckFill className='experience_details-icons'/>
                   <div>
-                  <h4>Learning</h4>
+                  <h4>MySQL</h4>
                   </div>
                 </article>
                 <article className="experience_details">
                   <PiSealCheckFill className='experience_details-icons' />
                   <div>
-                  <h4>Learning</h4>
+                  <h4>Postman</h4>
                   </div>
                 </article>
         </div>

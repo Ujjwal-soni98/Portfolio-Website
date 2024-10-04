@@ -47,6 +47,7 @@ p{
     margin-top:3rem;
     margin-left: 2rem;
     margin-right: 2rem;
+    text-justify: distribute;
     font-size: 1.4rem;
     font-weight: 500;
     color: #fafafa

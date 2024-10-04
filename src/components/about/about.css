@@ -59,6 +59,7 @@ p{
     text-align:center;
     width: 7rem;
     margin-top: 2rem;
+    margin-bottom: 3rem;
     font-weight: 650;
     font-size: 1.2rem;
 }
@@ -97,6 +98,7 @@ p{
 
     .contact{
         margin-top: -4rem;
+        margin-left: 1rem;
     }
 
     }

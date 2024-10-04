@@ -8,12 +8,19 @@ import emailjs from '@emailjs/browser';
 const Contact = () => {
   const form =useRef()
   const sendEmail = (e) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  emailjs.sendForm('service_bwiuuan', 'template_4a90f2c', form.current, 'kaSt8TuyiGU4CBR30')
-  e.target.reset()
-   
-};
+    // Send the form via EmailJS with error handling
+    emailjs.sendForm('service_btsgnye', 'template_4a90f2c', form.current, 'cfYO_tpsEr8eVOr_l')
+      .then((result) => {
+        console.log('Email sent successfully:', result.text);
+        e.target.reset(); // Reset the form on success
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error); // Log the error
+        alert('Failed to send email. Please try again later.');
+      });
+  };
 
   return (
 
@@ -26,7 +33,7 @@ const Contact = () => {
           <article className="contact_option">
             <TfiEmail className='contact_option-icons'/>
             <h4>Email</h4>
-            <h5>ujjwal.soniji@gmail.com</h5>
+            <h5>01ujjwal.soni@gmail.com</h5>
             <a className='email-link' href="mailto: ujjwal.soniji@gmail.com" target='_blank'>Send here an e-mail</a>
           </article>
           <article className="contact_option">
@@ -37,7 +44,7 @@ const Contact = () => {
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='Name' placeholder='Your Full Name' required />
+          <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" placeholder='Your Message' rows="7" required></textarea>
           <button  type="submit" className='btn message btn-primary'>Send Message</button>

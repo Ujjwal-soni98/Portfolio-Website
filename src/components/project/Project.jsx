@@ -16,8 +16,8 @@ const Project = () => {
           <div className="project_item-image"><img src={QR} alt="" /></div>
           <h3>Text-2-QR</h3>
           <div className="project_item-cta">
-          <a href="https://github.com/Ujjwal-soni98/Text-2-QR" className='btn'>GitHub</a>
-          <a href="https://github.com/Ujjwal-soni98/Text-2-QR" className='btn btn-primary' target='__blank'>Live demo</a>
+          <a href="https://github.com/Ujjwal-soni98/Text-2-QR" className='btn' target='_blank'>GitHub</a>
+          <a href="https://github.com/Ujjwal-soni98/Text-2-QR" className='btn btn-primary' target='_blank'>Live demo</a>
           </div>
         </article>
 
@@ -27,8 +27,8 @@ const Project = () => {
           </div>
           <h3>Drum Strokes</h3>
           <div className="project_item-cta">
-          <a href="https://github.com/Ujjwal-soni98/Drumkit" className='btn'>GitHub</a>
-          <a href="ujjwal-soni98.github.io/Drumkit/" className='btn btn-primary' target='__blank'>Live demo</a>
+          <a href="https://github.com/Ujjwal-soni98/Drumkit" className='btn' target='_blank'>GitHub</a>
+          <a href="https://ujjwal-soni98.github.io/Drumkit/" className='btn btn-primary' target='_blank'>Live demo</a>
           </div>
         </article>
 
@@ -38,8 +38,8 @@ const Project = () => {
           </div>
           <h3>College Hackathon Website</h3>
           <div className="project_item-cta">
-          <a href="https://github.com/Ujjwal-soni98/SprintHacks-Website" className='btn'>GitHub</a>
-          <a href="https://sprinthacks.vercel.app/" className='btn btn-primary' target='__blank'>Live demo</a>
+          <a href="https://github.com/Ujjwal-soni98/SprintHacks-Website" className='btn' target='_blank'>GitHub</a>
+          <a href="https://sprinthacks.vercel.app/" className='btn btn-primary' target='_blank'>Live demo</a>
           </div>
         </article>
 
@@ -49,8 +49,8 @@ const Project = () => {
           </div>
           <h3>Portfolio Website</h3>
           <div className="project_item-cta">
-          <a href="https://github.com" className='btn'>GitHub</a>
-          <a href="https://github.com" className='btn btn-primary' target='__blank'>Live demo</a>
+          <a href="https://github.com/Ujjwal-soni98/Portfolio-Website" className='btn' target='_blank'>GitHub</a>
+          <a href="https://ujjwal-soni.vercel.app/" className='btn btn-primary' target='_blank'>Live demo</a>
           </div>
         </article>
       </div>

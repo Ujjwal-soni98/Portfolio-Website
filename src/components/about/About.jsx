@@ -17,7 +17,7 @@ const About = () => {
   
         </div>
         <div className="about_content">
-        <p>Namaste Atithi,<br></br><br />I am Ujjwal Soni, a web developer from India🙏. I love to learn new technologies particularly interested in web technologies for now.<br></br><q>Learning should never be stoppeed!</q> So I am Still learning.
+        <p className='para'>Namaste Atithi,<br></br><br />I am Ujjwal Soni, a web developer from India🙏. I love to learn new technologies particularly interested in web technologies for now.<br></br><q>Learning should never be stoppeed!</q> So I am Still learning.
         </p>
         <a href="#contact" className='btn btn-primary contact'>Let's Talk</a>
         </div>
